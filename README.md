@@ -6,10 +6,12 @@ Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://
 
 Para inicializar el proyecto 
 
-1. craermos el proyecto 
+1. Configuirar tailwindcss
 
-✅ npm create vite@latest admin-pacientes -- --template vue
-✅ Instalar dependencias con npm install
-✅ Correr el proyecto para verificar que este todo ok con npm run dev
+Es de vital importancia en nuestro package.json poner en dependencias "tailwindcss": "^3.4.17", para quie pueda crear los archivos tailwind.config.js, 
+
+Para el postcss.config.js solo se crear y se pone el siguiente contenido.
+
+
 
 
