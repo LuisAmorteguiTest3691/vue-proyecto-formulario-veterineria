@@ -11,11 +11,21 @@ Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://
 📧 Contacto: luisamortegui.3691@gmail.com
 
 
-🚀 Añadiendo todos los campos al state de Vue.js
+🚀 Submit de formularios y Events Modifiers
 
 Se añaden las propiedades faltantes al objeto, se habilita la herramienta de Google Vue.js devtools para poder depurar la información que se almacena en nuestro objeto gracias a la librería de reactive de Vue.js
 
-✅ Vista
+Lo que normalmente se veria con JavaScript
+
+const formulario = document.querySelector('#id');
+formulario = addEventListener('submit', function(e){
+    // logica
+    e.preventDefault():
+});
+
+Con Vue.js, solo de ingresamos la directiva de eventos @submit-prevent="[nombre_variable]" algo mas sencillo y util 
+
+✅ Se evidencia el mensaje en consola una vez se da clic en el boton.
 
 ![Vista](docs/images/imagen.png)
 
