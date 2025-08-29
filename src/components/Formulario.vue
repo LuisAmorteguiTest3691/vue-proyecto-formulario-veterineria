@@ -1,9 +1,12 @@
 <script setup>
     import { reactive } from 'vue';
 
-    const propiedad = reactive({
+    const paciente = reactive({
         nombre: '',
-        propietario: ''
+        propietario: '',
+        email: '',
+        alta: '',
+        sintomas: ''
     });
 </script>
 
@@ -15,8 +18,6 @@
             <span class="text-indigo-600 font-bold">Administralos</span>
         </p>
         <form class="bg-white shadow-md rounded-lg py-10 px-5 mb-10">
-            {{ propiedad.nombre }}
-            {{ propiedad.propietario }}
             <div class="mb-5">
                 <label 
                     for="mascota" 
@@ -29,7 +30,7 @@
                     id="mascota" 
                     placeholder="Nombre de la Macota" 
                     class="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
-                    v-model="propiedad.propietario"
+                    v-model="paciente.propietario"
                 />
             </div>
             <div class="mb-5">
@@ -44,7 +45,7 @@
                     id="propietario" 
                     placeholder="Nombre del Propietario" 
                     class="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
-                    v-model="propiedad.nombre"
+                    v-model="paciente.nombre"
                 />
             </div>
             <div class="mb-5">
@@ -59,6 +60,7 @@
                     id="email" 
                     placeholder="Emila del Propietario" 
                     class="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
+                    v-model="paciente.email"
                 />
             </div>
             <div class="mb-5">
@@ -72,6 +74,7 @@
                     type="date"
                     id="alta" 
                     class="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
+                    v-model="paciente.alta"
                 />
             </div>
             <div class="mb-5">
@@ -85,6 +88,7 @@
                     id="sintomas"
                     placeholder="Describe tus sintomas"
                     class="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md h-40"
+                    v-model="paciente.sintomas"
                 />
             </div>
             <input 

@@ -11,11 +11,11 @@ Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://
 📧 Contacto: luisamortegui.3691@gmail.com
 
 
-🚀 Lectura de datos con reactive
+🚀 Añadiendo todos los campos al state de Vue.js
 
-La mejor opcion para almacenar un conjunto de datos es reactive. La funcion reactive toma cada uno de los campos y los almacena en cada propiedad del objeto, ya que con ref, en su efecto hay que crear varias declaraciones. Como en ref se sigue utilizando v-model, pero esta vez, para asignar e imprimir los valores se llama al objeto y con sintaxis de punto se llama la propiedad.
+Se añaden las propiedades faltantes al objeto, se habilita la herramienta de Google Vue.js devtools para poder depurar la información que se almacena en nuestro objeto gracias a la librería de reactive de Vue.js
 
-✅ Vista de como queda
+✅ Vista
 
 ![Vista](docs/images/imagen.png)
 
