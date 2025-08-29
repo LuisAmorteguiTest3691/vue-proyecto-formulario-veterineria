@@ -4,13 +4,16 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
 
-🗓️ Proyecto actualizado el dia 20250829 a las 12:06 pm Colombia
+🗓️ Proyecto actualizado el dia 20250829 a las 12:33 pm Colombia
+
 ©️ Autor: Luis Hernando Murcia Amortegui
+
 📧 Contacto: luisamortegui.3691@gmail.com
 
-🚀 Creación del componente Formulario
 
-Se crea el diseño del título y una breve descripción del formulario, se importa el componente en el App.vue y se llama el componente. En el componente se le asigna que su ancho va a tomar el 50% de la pantalla solo cuando la pantalla sea mayor o igual a 768px.
+🚀 Creación campo plantilla para el formulario
+
+Se crea el campo plantilla de referencia con todos los estilos, está encapsulado por una etiqueta div, posteriormente siguen las etiquetas label e input. Se asignan las clases de estilos de tailwindcss para mejorar el diseño de los campos y los títulos de cada uno.
 
 ✅ Vista de como queda
 
