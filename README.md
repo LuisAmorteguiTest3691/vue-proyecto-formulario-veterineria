@@ -4,20 +4,47 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
 
-🗓️ Proyecto actualizado el dia 20250829 a las 12:33 pm Colombia
+🗓️ Proyecto actualizado el dia 20250829 a las 1:12 pm Colombia
 
 ©️ Autor: Luis Hernando Murcia Amortegui
 
 📧 Contacto: luisamortegui.3691@gmail.com
 
 
-🚀 Creación campo plantilla para el formulario
+🚀 Finalizando el diseño del formulario
 
-Se crea el campo plantilla de referencia con todos los estilos, está encapsulado por una etiqueta div, posteriormente siguen las etiquetas label e input. Se asignan las clases de estilos de tailwindcss para mejorar el diseño de los campos y los títulos de cada uno.
+Campos del formulario terminado, en el cual se puede evidenciar el estilo de cada campo con las clases de estilo de tailwindcss.
 
 ✅ Vista de como queda
 
 ![Vista Header](docs/images/Captura%20de%20pantalla%202025-08-29%20113951.png)
+
+🛠️ Diseño de los campos.
+
+✅ Campo nombre mascota 
+
+![campo nombre mascota](docs/images/campo%20nombre%20mascota.png)
+
+✅ Campo nombre propietario 
+
+![campo nombre propietario](docs/images/campo%20nombre%20propietario.png)
+
+✅ Campo email
+
+![campo eamil](docs/images/campo%20email.png)
+
+✅ Campo fecha de alta 
+
+![campo fecha de alta](docs/images/campo%20fecha%20de%20alta.png)
+
+✅ Campo sintmas
+
+![campo sintomas](docs/images/campo%20sintoma.png)
+
+✅ Boton input
+
+![boton](docs/images/boton.png)
+
 
 
 
