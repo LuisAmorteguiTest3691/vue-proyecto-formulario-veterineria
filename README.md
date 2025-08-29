@@ -11,12 +11,12 @@ Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://
 📧 Contacto: luisamortegui.3691@gmail.com
 
 
-🚀 Validando formularios Vue.js Object.values(variable).includes('').
+🚀 Creando el componente de alertas 
 
-Validar un formulario es de vital importancia, es por ello que se dispone del método nativo de JavaScript Object.values() para poder obtener un arreglo de los valores que tiene un objeto, se valida con el método de JavaScript includes('') si en alguno de sus índices existe una cadena vacía, con esto pasa a la condición, en teoría debería ingresar a la condición y con return cortar el flujo de proceso.
+Se crea el componente de alertas, este se llama desde el componente de formularios, se crea un objeto llamado alertas con reactive, este tiene dos propiedades, tipo y mensaje. Cuando se valide el objeto paciente y por lo menos uno este vacio, se llenara el objeto de alrta con la informacion.
 
 
-✅ Se evidencia el mensaje en consola una vez se da clic en el boton.
+✅ Vista
 
 ![Vista](docs/images/imagen.png)
 
