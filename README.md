@@ -4,13 +4,11 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
 
-Para inicializar el proyecto 
+🚀 Creación del componente Header
 
-1. Configuirar tailwindcss
+Se crea el componente Header en el fichero components. Una vez creado el diseño, se renderiza importando el componente en el App.js y se llama al componente.
 
-Es de vital importancia en nuestro package.json poner en dependencias "tailwindcss": "^3.4.17", para quie pueda crear los archivos tailwind.config.js, 
-
-Para el postcss.config.js solo se crear y se pone el siguiente contenido.
+![Vista Header](docs/images/Captura%20de%20pantalla%202025-08-29%20113951.png)
 
 
 
