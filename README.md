@@ -4,9 +4,15 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
 
-🚀 Creación del componente Header
+🗓️ Proyecto actualizado el dia 20250829 a las 12:06 pm Colombia
+©️ Autor: Luis Hernando Murcia Amortegui
+📧 Contacto: luisamortegui.3691@gmail.com
 
-Se crea el componente Header en el fichero components. Una vez creado el diseño, se renderiza importando el componente en el App.js y se llama al componente.
+🚀 Creación del componente Formulario
+
+Se crea el diseño del título y una breve descripción del formulario, se importa el componente en el App.vue y se llama el componente. En el componente se le asigna que su ancho va a tomar el 50% de la pantalla solo cuando la pantalla sea mayor o igual a 768px.
+
+✅ Vista de como queda
 
 ![Vista Header](docs/images/Captura%20de%20pantalla%202025-08-29%20113951.png)
 
