@@ -2,6 +2,7 @@
     import { reactive } from 'vue';
     import Alertas from './Alertas.vue';
 
+
     const alerta = reactive({
         tipo: '',
         mensaje: ''
@@ -17,7 +18,7 @@
 
     const validar = () => {
         if ( Object.values(paciente).includes('') ) {
-            alerta.nombre = 'Ninguno de los campos puede estar vacio';
+            alerta.mensaje = 'Ninguno de los campos puede estar vacio';
             alerta.tipo = 'Error';
             return;
         }
@@ -34,6 +35,10 @@
             Añade Pacientes y 
             <span class="text-indigo-600 font-bold">Administralos</span>
         </p>
+        <Alertas 
+            v-if="alerta.mensaje"
+            :alerta="alerta"
+        />
         <form class="bg-white shadow-md rounded-lg py-10 px-5 mb-10" @submit.prevent="validar">
             <div class="mb-5">
                 <label 

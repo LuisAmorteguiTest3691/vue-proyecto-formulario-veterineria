@@ -11,9 +11,28 @@ Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://
 📧 Contacto: luisamortegui.3691@gmail.com
 
 
-🚀 Creando el componente de alertas 
+🚀 Renderizando el componente Alerta 
 
-Se crea el componente de alertas, este se llama desde el componente de formularios, se crea un objeto llamado alertas con reactive, este tiene dos propiedades, tipo y mensaje. Cuando se valide el objeto paciente y por lo menos uno este vacio, se llenara el objeto de alrta con la informacion.
+Para renderizar utilizamos la directiva de vue v-if="[objeto.propiedad]" para poder establecer si viene con valores, tambien se asigna el nombre del props en el componente formularios llamado :alerta, asignando el obejeto alerta. 
+
+Una vez se ha nombrado el props en el componente formulario, se crea el objeto props de tipo defineProps
+
+<script setup>
+    const props = defineProps({
+        alerta: {
+            type: Object,
+            required: true
+        }
+    });
+</script>
+
+con esto definimos el valor de nuestro props podemos tomar los valores de nuestro objeto.
+
+<template>
+    <div class="text-white text-center p-3 uppercase font-bold mb-3 rounded-md bg-red-400"> 
+        {{ alerta.mensaje }}
+    </div>
+</template>
 
 
 ✅ Vista
