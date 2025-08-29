@@ -11,39 +11,13 @@ Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://
 📧 Contacto: luisamortegui.3691@gmail.com
 
 
-🚀 Finalizando el diseño del formulario
+🚀 Lectura de datos simplicado con v-model
 
-Campos del formulario terminado, en el cual se puede evidenciar el estilo de cada campo con las clases de estilo de tailwindcss.
+Con v-model se simplifica más la lectura de los campos input, solo se requiere la constante de nombre y la función v-model
 
 ✅ Vista de como queda
 
-![Vista Header](docs/images/Captura%20de%20pantalla%202025-08-29%20113951.png)
-
-🛠️ Diseño de los campos.
-
-✅ Campo nombre mascota 
-
-![campo nombre mascota](docs/images/campo%20nombre%20mascota.png)
-
-✅ Campo nombre propietario 
-
-![campo nombre propietario](docs/images/campo%20nombre%20propietario.png)
-
-✅ Campo email
-
-![campo eamil](docs/images/campo%20email.png)
-
-✅ Campo fecha de alta 
-
-![campo fecha de alta](docs/images/campo%20fecha%20de%20alta.png)
-
-✅ Campo sintmas
-
-![campo sintomas](docs/images/campo%20sintoma.png)
-
-✅ Boton input
-
-![boton](docs/images/boton.png)
+![Vista Header](docs/images/imagen.png)
 
 
 
