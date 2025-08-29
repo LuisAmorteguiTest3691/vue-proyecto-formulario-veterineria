@@ -1,7 +1,10 @@
 <script setup>
-    import { ref } from 'vue';
+    import { reactive } from 'vue';
 
-    const nombre = ref('');
+    const propiedad = reactive({
+        nombre: '',
+        propietario: ''
+    });
 </script>
 
 <template>
@@ -12,7 +15,8 @@
             <span class="text-indigo-600 font-bold">Administralos</span>
         </p>
         <form class="bg-white shadow-md rounded-lg py-10 px-5 mb-10">
-            {{ nombre }}
+            {{ propiedad.nombre }}
+            {{ propiedad.propietario }}
             <div class="mb-5">
                 <label 
                     for="mascota" 
@@ -25,7 +29,7 @@
                     id="mascota" 
                     placeholder="Nombre de la Macota" 
                     class="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
-                    v-model="nombre"
+                    v-model="propiedad.propietario"
                 />
             </div>
             <div class="mb-5">
@@ -40,6 +44,7 @@
                     id="propietario" 
                     placeholder="Nombre del Propietario" 
                     class="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
+                    v-model="propiedad.nombre"
                 />
             </div>
             <div class="mb-5">

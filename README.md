@@ -11,13 +11,13 @@ Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://
 📧 Contacto: luisamortegui.3691@gmail.com
 
 
-🚀 Lectura de datos simplicado con v-model
+🚀 Lectura de datos con reactive
 
-Con v-model se simplifica más la lectura de los campos input, solo se requiere la constante de nombre y la función v-model
+La mejor opcion para almacenar un conjunto de datos es reactive. La funcion reactive toma cada uno de los campos y los almacena en cada propiedad del objeto, ya que con ref, en su efecto hay que crear varias declaraciones. Como en ref se sigue utilizando v-model, pero esta vez, para asignar e imprimir los valores se llama al objeto y con sintaxis de punto se llama la propiedad.
 
 ✅ Vista de como queda
 
-![Vista Header](docs/images/imagen.png)
+![Vista](docs/images/imagen.png)
 
 
 
