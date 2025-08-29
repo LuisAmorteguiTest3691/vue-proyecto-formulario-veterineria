@@ -11,19 +11,10 @@ Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://
 📧 Contacto: luisamortegui.3691@gmail.com
 
 
-🚀 Submit de formularios y Events Modifiers
+🚀 Validando formularios Vue.js Object.values(variable).includes('').
 
-Se añaden las propiedades faltantes al objeto, se habilita la herramienta de Google Vue.js devtools para poder depurar la información que se almacena en nuestro objeto gracias a la librería de reactive de Vue.js
+Validar un formulario es de vital importancia, es por ello que se dispone del método nativo de JavaScript Object.values() para poder obtener un arreglo de los valores que tiene un objeto, se valida con el método de JavaScript includes('') si en alguno de sus índices existe una cadena vacía, con esto pasa a la condición, en teoría debería ingresar a la condición y con return cortar el flujo de proceso.
 
-Lo que normalmente se veria con JavaScript
-
-const formulario = document.querySelector('#id');
-formulario = addEventListener('submit', function(e){
-    // logica
-    e.preventDefault():
-});
-
-Con Vue.js, solo de ingresamos la directiva de eventos @submit-prevent="[nombre_variable]" algo mas sencillo y util 
 
 ✅ Se evidencia el mensaje en consola una vez se da clic en el boton.
 

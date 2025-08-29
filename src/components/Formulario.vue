@@ -10,7 +10,13 @@
     });
 
     const validar = () => {
-        console.log('Validando...');
+        console.log(Object.values(paciente));
+        if ( Object.values(paciente).includes('') ) {
+            console.log('Hay uno de los campos que esta vacio...');
+            return;
+        }
+
+        console.log('Sincronizar informacion');
     };
 
 </script>
