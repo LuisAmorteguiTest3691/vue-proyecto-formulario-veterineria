@@ -11,15 +11,16 @@ Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://
 📧 Contacto: luisamortegui.3691@gmail.com
 
 
-🚀 Añadiendo dinamismo a nuestra alerta
-Es de vital importancia mostrar alertas según sea el caso. Para los formularios es de vital importancia darle manejo a las alertas dependiendo de si este es vacío o está completo. Es por ello que se dispone de la librería computed para poder actuar como una bandera a nuestros datos. En este caso, podemos condicionar mediante una condición ternaria el valor adecuado.
+🚀 Primeros pasos con el listado de clientes
+
+Se crea la lista de clientes, para este caso solo se crea el contenedor. Además, se importa ref, para definir el arreglo. En él, él, témplate, se condiciona. Si el elemento ref viene vacío, se muestra el mensaje "No hay pacientes", caso contrario muestra los pacientes.
 
 
 
 ✅ Vista
 
 ![Vista](docs/images/imagen.png)
-![Vista](docs/images/imagen1.png)
+
 
 
 
