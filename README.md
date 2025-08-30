@@ -11,33 +11,15 @@ Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://
 📧 Contacto: luisamortegui.3691@gmail.com
 
 
-🚀 Renderizando el componente Alerta 
+🚀 Añadiendo dinamismo a nuestra alerta
+Es de vital importancia mostrar alertas según sea el caso. Para los formularios es de vital importancia darle manejo a las alertas dependiendo de si este es vacío o está completo. Es por ello que se dispone de la librería computed para poder actuar como una bandera a nuestros datos. En este caso, podemos condicionar mediante una condición ternaria el valor adecuado.
 
-Para renderizar utilizamos la directiva de vue v-if="[objeto.propiedad]" para poder establecer si viene con valores, tambien se asigna el nombre del props en el componente formularios llamado :alerta, asignando el obejeto alerta. 
-
-Una vez se ha nombrado el props en el componente formulario, se crea el objeto props de tipo defineProps
-
-<script setup>
-    const props = defineProps({
-        alerta: {
-            type: Object,
-            required: true
-        }
-    });
-</script>
-
-con esto definimos el valor de nuestro props podemos tomar los valores de nuestro objeto.
-
-<template>
-    <div class="text-white text-center p-3 uppercase font-bold mb-3 rounded-md bg-red-400"> 
-        {{ alerta.mensaje }}
-    </div>
-</template>
 
 
 ✅ Vista
 
 ![Vista](docs/images/imagen.png)
+![Vista](docs/images/imagen1.png)
 
 
 
